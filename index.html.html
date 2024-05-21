@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Maxime</title>
+    <link rel="stylesheet" href="body {.css">
+    <script src="let currentIndex = 0;.js"> </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfolio de Maxime</h1>
+            <nav>
+                <ul>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#affiches">Affiches</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="a-propos">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Bonjour, je m'appelle Maxime et j'ai 24 ans. Actuellement en reconversion professionnelle, je débute dans le monde passionnant du graphisme. Bien que je sois encore novice, je suis très enthousiaste et curieux d'explorer toutes les facettes de ce domaine.</p>
+            <p>Ce qui me passionne particulièrement, ce sont les affiches de cinéma. J'adore capturer l'essence d'un film et la transmettre à travers des visuels captivants et artistiques. Je suis une personne polyvalente, touchant à tout ce qui est créatif, que ce soit le code, le montage photo ou le montage vidéo.</p>
+            <p>J'ai une grande soif d'apprendre et je suis toujours à la recherche de nouvelles compétences à acquérir. Mon esprit créatif et mon désir constant d'amélioration me poussent à repousser les limites et à produire des œuvres uniques et impactantes.</p>
+            <p>Je suis impatient de collaborer avec d'autres passionnés du milieu et de continuer à développer mes compétences dans cet univers créatif.</p>
+        </div>
+    </section>
+
+    <section id="affiches">
+        <div class="container">
+            <h2>Mes Affiches de Films</h2>
+            <div class="carousel">
+                <button class="carousel-button left" onclick="navigateSlide('prev')">&#10094;</button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/affiche  joker.png" alt="Affiche Joker">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/Affiche bsd.png" alt="Affiche Benoit Saint Denis">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/Affiche Charles Oliveira.png" alt="Affiche Charles Oliveira">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/affiche faux film 7.png" alt="Affiche de faux film">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/affiche John Wick.png" alt="Affiche John Wick">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/affiche joker 2.png" alt="Affiche Joker 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/affiche le parrain.png" alt="Affiche Le Parrain">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/Affiche Mcgregor 3.png" alt="Affiche Conor Mcgregor">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/affiche the boys.png" alt="Affiche The boys">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/faux film 1.png" alt="Affiche de faux film">
+                    </div>
+                </div>
+                <button class="carousel-button right" onclick="navigateSlide('next')">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Maxime. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
